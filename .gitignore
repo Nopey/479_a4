@@ -1,0 +1,17 @@
+# built binaries
+hfkb
+hfkb.d
+hfkb_dbg
+hfkb_dbg.d
+chfkb
+chfkb_dbg
+libhfkb.a
+libhfkb_dbg.a
+
+# documentation
+doc
+
+# object files
+# These are only leftover when the rustc process is interrupted with CTRL-C
+# (example: hfkb.hfkb.7rcbfp3g-cgu.11.rcgu.o)
+hfkb*.o
