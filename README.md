@@ -1,8 +1,11 @@
 # hfkb: Horn Form Knowledge Base
- Assignment 4
- VIU CSCI 479
-Magnus L Larsen
- 655 784 536
+A Horn Form knowledge base.
+
+Although the library is implemented in Rust (see `hfkb.rs`),
+I've provided a simple C FFI interface, and C++ wrapper.
+
+The C++ wrapper is consumed in `main.cpp`, which is a minimally modified version of
+[the main.cpp file given in the assignment description](http://csci.viu.ca/~liuh/479/assignments/A4.html).
 
 
 ## Compilation
@@ -58,6 +61,3 @@ While there are no currently known bugs, this code is not to be trusted.
 ## Comments
 The C++ HFKB (chfkb and main.cpp), uses the Rust hfkb.rs module.
 It uses it through a C API provided in capi.rs (compiled into libhfkb.a), wrapped up in KB.h's HF_KB C++ class.
-
-I have written this assignment in Rust.
-Feel free to reach out if you have any questions regarding my assignment or the Rust language itself.
